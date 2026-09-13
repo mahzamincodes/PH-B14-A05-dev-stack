@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/hero-section/Hero";
 import Tecnology from "./components/tecnology-section/Tecnology";
-// import Footer from "./components/footer-section/Footer";
+import Footer from "./components/footer-section/Footer";
 import { Suspense } from "react";
 
 const technologyFetch = async() =>{
@@ -25,7 +25,7 @@ function App() {
             </Suspense>
         </div>
         
-        {/* <Footer /> */}
+        <Footer />
     </>
   );
 }
