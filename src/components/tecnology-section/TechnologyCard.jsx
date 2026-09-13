@@ -1,10 +1,11 @@
 
-import { useState } from 'react';
+// import { useState } from 'react';
 import { CiStar } from 'react-icons/ci';
+import { toast } from 'react-toastify';
 
-const TechnologyCard = ({technology , handleAddToStack}) => {
+const TechnologyCard = ({technology, handleAddToStack, isAdded}) => {
 
-    const [isAdded, setIsAdded] = useState(false)
+    // const [isAdded, setIsAdded] = useState(false)
     // console.log(isAdded, setIsAdded);
 
     // const handleClick = () =>{
@@ -40,8 +41,8 @@ const TechnologyCard = ({technology , handleAddToStack}) => {
                 </div>
 
                 <button onClick={()=>{
-                    setIsAdded(true) 
                     handleAddToStack(technology)
+                    toast.success(`${technology.name} added successfully`);
                 }}
                  className="btn btn-neutral rounded-[10px]"
                 //  disabled = {isAdded === true ? true : false}

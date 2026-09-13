@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
                 <div className="flex justify-between items-center gap-10">
                     <p className="text-[#64748B] text-[20px]">Privacy</p>
-                    <p className="text-[#64748B] text-[20px]">Privacy</p>
+                    <p className="text-[#64748B] text-[20px]">Terms</p>
                 </div>
             </div>
 

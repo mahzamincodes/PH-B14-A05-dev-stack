@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li><a href="" className="text-[20px] font-semibold"><span className="text-[#E04389]">Home</span></a></li>
                 <li><a href="" className="text-[20px] font-semibold text-[#7b8188]">Technologies</a></li>
                 <li><a href="" className="text-[20px] font-semibold text-[#7b8188]">Projects</a></li>
-                <li><a href="" className="text-[20px] font-semibold text-[#7b8188]">ABout</a></li>
+                <li><a href="" className="text-[20px] font-semibold text-[#7b8188]">About</a></li>
                 <li><a href="" className="text-[20px] font-semibold text-[#7b8188]">Contact</a></li>
             </ul>
 
