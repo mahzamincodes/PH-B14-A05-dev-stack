@@ -25,7 +25,7 @@ function App() {
             </Suspense>
         </div>
         
-        <Footer />
+        {/* <Footer /> */}
     </>
   );
 }
