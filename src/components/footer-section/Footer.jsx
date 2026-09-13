@@ -3,10 +3,10 @@ import FooterLogo from "../../assets/logo-text.png"
 const Footer = () => {
     return (
         
-        <div className="container mx-auto">
-            <div class=" flex gap-10 w-full p-4 border-b-2 border-[#e8ebee] pb-20">
+        <div className="container mx-auto mt-30">
+            <div className=" flex gap-10 w-full p-4 border-b-2 border-[#e8ebee] pb-20">
   
-                <div class="flex-2 py-4">
+                <div className="flex-2 py-4">
                     <img src={FooterLogo}  alt="" />
                     <p className="my-10 text-[#64748B] text-[20px]">
                         Curated tools, technologies, and resources for developers building
@@ -18,7 +18,7 @@ const Footer = () => {
                     <a href="" className="text-[#475569] text-[18px] font-bold">LinkedIn</a>
                 </div>
 
-                <div class="flex-3 flex justify-between a  p-4">
+                <div className="flex-3 flex justify-between a  p-4">
                     <div>
                         <h1 className="text-2xl font-medium">PRODUCT</h1>
                         <div className="flex flex-col justify-between gap-2 mt-5">
